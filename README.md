@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Copperline Plumbing & Drains | Professional Service & Repair
 
-# Run and deploy your AI Studio app
+Welcome to the official repository for Copperline Plumbing & Drains. This project is a premium service-industry website designed to project reliability, technical expertise, and 24/7 availability for residential and commercial plumbing needs.
 
-This contains everything you need to run your app locally.
+✨ Key Features
+Service-Oriented Architecture: Clear, intuitive layout focused on high-conversion service categories.
+Modern Industrial Aesthetic: A clean, professional look using copper and slate tones to build brand trust.
+Fully Responsive: Optimized for mobile users—crucial for customers seeking emergency plumbing services.
+High Performance: Built with Vite for rapid load times, ensuring users find help without delay.
 
-View your app in AI Studio: https://ai.studio/apps/e7e230bd-9536-4c32-8fc8-e1a57d521fc5
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+## 🚀 Live Demo
+View the live site here: [copperline-plumbing.netlify.app]
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Designed & Developed by Muhammad Sufyan
+Digital Strategist & Web Designer
