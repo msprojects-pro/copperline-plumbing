@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-copper: #d97706;
+  --color-copper-glow: #fbbf24;
+  --color-slate-dark: #1a1a1a;
+  --color-slate-light: #f5f5f7;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased transition-colors duration-500;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-md border border-white/10 bg-white/5;
+  }
+  
+  .glass-dark {
+    @apply backdrop-blur-md border border-white/5 bg-black/20;
+  }
+  
+  .copper-glow {
+    text-shadow: 0 0 20px rgba(217, 119, 6, 0.5);
+  }
+  
+  .copper-border-glow {
+    box-shadow: 0 0 15px rgba(217, 119, 6, 0.3);
+  }
+  
+  .mesh-gradient {
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(217, 119, 6, 0.1) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(217, 119, 6, 0.05) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(217, 119, 6, 0.1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(217, 119, 6, 0.05) 0px, transparent 50%);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-copper rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-copper-glow;
+}

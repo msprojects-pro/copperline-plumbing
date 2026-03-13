@@ -1,0 +1,7 @@
+{
+  "name": "Copperline Plumbing & Drains",
+  "description": "Premium 24/7 plumbing and drain services in Phoenix, AZ. Industrial Slate & Molten Copper aesthetic with world-class UI/UX.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
